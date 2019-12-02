@@ -1,0 +1,45 @@
+1.项目技术
+
+1.1接口文档:
+   Swagger
+
+
+1.2接口监控: alibaba  Sentinel 组件
+   【简介】代码入侵性小   集成成本极低
+    加maven   加配置文件即可
+
+
+
+1.3接口(容器)限流QPS:
+     Redis
+
+     nginx
+
+     消息队列
+
+
+
+
+
+1.4接口负载均衡：
+
+   nginx
+
+
+   hystix
+
+
+   robbin
+
+
+
+
+1.5消息队列：(异步处理)
+
+   rocketMQ:
+
+   kalfka:
+
+   guava:
+
+关于链路监控：分为服务层,网关层
