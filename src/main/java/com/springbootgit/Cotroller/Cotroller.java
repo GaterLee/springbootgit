@@ -33,7 +33,7 @@ public class Cotroller {
         while (true){
             try(Entry entry= SphU.entry( "Hello" )){
                 // 被保护的逻辑
-                System.out.println("hello world");
+                System.out.println("hello world is ok");
                 return "hello world";
             }catch (BlockException ex){
                 //处理被流的逻辑  服务降级
